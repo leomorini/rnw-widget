@@ -18,3 +18,7 @@ function widgetInit() {
     );
   });
 }
+
+module.exports = {
+  widgetInit
+}
