@@ -16,8 +16,8 @@ const Widget = () => {
     <View style={styles.container}>
       <Text style={styles.title}>Widget</Text>
       <View style={styles.content}>
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText} onPress={handleAlert}>
+        <TouchableOpacity style={styles.button} onPress={handleAlert}>
+          <Text style={styles.buttonText}>
             Testando botão
           </Text>
         </TouchableOpacity>
