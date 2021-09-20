@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Widget from './Widget';
+import Widget from './src/Widget';
 
 const popupRoot = document.getElementById("popup-root");
 

@@ -1,6 +1,6 @@
 {
   "name": "react-native-web-widget",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:web": "parcel build src/index.web.js --no-source-maps -d docs",
+    "build:web": "parcel build ./index.web.js --no-source-maps -d docs",
     "build:extension": "node ./scripts/build-non-split.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

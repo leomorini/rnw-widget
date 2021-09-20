@@ -4,7 +4,7 @@ const defaults = rewire("react-scripts/scripts/build.js"); // If you ejected, us
 
 let config = defaults.__get__("config");
 
-const entry = path.resolve(__dirname, "../src/index.extension.js");
+const entry = path.resolve(__dirname, "../index.extension.js");
 
 config.optimization.splitChunks = {
   cacheGroups: {
