@@ -4,6 +4,7 @@ import {
   Text,
   StyleSheet,
   TouchableOpacity,
+  Platform,
 } from "react-native";
 
 const handleAlert = () => {
@@ -46,7 +47,11 @@ const styles = StyleSheet.create({
     padding: 5,
   },
   button: {
-    cursor: 'pointer',
+    ...Platform.select({
+      web: {
+        cursor: 'pointer',
+      },
+    })
   },
   buttonText: {
     color: "red",
