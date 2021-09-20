@@ -11,7 +11,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build:web": "parcel build ./index.web.js --no-source-maps -d docs",
-    "build:extension": "node ./scripts/build-non-split.js",
+    "build:extension": "node ./scripts2/build-non-split.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
