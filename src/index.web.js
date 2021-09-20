@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Widget from './src/Widget';
+import Widget from './Widget';
 
 function activeWidget() {
   const WidgetDivs = document.querySelectorAll('.rnw-widget');
