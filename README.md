@@ -47,6 +47,7 @@ To create and publish your React Native library, follow these steps:
   - Main file: index.js.
   - Configure the package for npm publication.
   - Run the following command:
+  - 
   ```bash
   npm publish
   ```
